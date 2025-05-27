@@ -7,49 +7,49 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("19769686"))
+API_HASH = getenv("515b64f5d2d955cdd6aa85a808fd4cb4")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("515b64f5d2d955cdd6aa85a808fd4cb4")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_ALPHA_BABY_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Elsur_psixoloq")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","Sonali_Music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME","Nergizmusicbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("NergizMusic")
 # ---------------------------------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002567375491", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6051510669))
+OWNER_ID = int(getenv("OWNER_ID", 6671591267))
 
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("nergimusicbot")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-d7849f0d-bd49-417a-9a6f-1453c10ad58a")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TEAMPURVI/SONALI_MUSIC",
+    "https://github.com/Elsur-psixoloq/SONALI_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NergizSupporGrup")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AnonimSair")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -71,8 +71,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("AgEtqVYAj-d2PSfOPN2R1l73iKX2lWL8REpNqzkhT1wncOEJ68YxJTrNeqEO89_BAKdwaemKZeZ_ObReA5zATFnQ6QxMNTPNLAsKLay6CUWn4InE5GhN6ux20FIwOpFDEb2aUyiXAYBVYmX9669mzYgoDflgbTshXVdPtEfWdqir1lP6g6yoB9h1FxLfXOIxgfp8Z4cKEq1PegeYj2la6cvWRBtgKZ5Ey6JY1GBf_Qoz4mfzJjjLjZXqnmv7zKe_dQPPMJ3i2DLizqxBBiVTGRsthYKtw0mkgCVBu-nQ32rMkhDp94PcQuCfSogSagAzs8mTsHtf7-ZQSOXSHfg35ZauUAmpugAAAAGC_6I6AA", None)
+STRING2 = getenv("AgEtqVYAj-d2PSfOPN2R1l73iKX2lWL8REpNqzkhT1wncOEJ68YxJTrNeqEO89_BAKdwaemKZeZ_ObReA5zATFnQ6QxMNTPNLAsKLay6CUWn4InE5GhN6ux20FIwOpFDEb2aUyiXAYBVYmX9669mzYgoDflgbTshXVdPtEfWdqir1lP6g6yoB9h1FxLfXOIxgfp8Z4cKEq1PegeYj2la6cvWRBtgKZ5Ey6JY1GBf_Qoz4mfzJjjLjZXqnmv7zKe_dQPPMJ3i2DLizqxBBiVTGRsthYKtw0mkgCVBu-nQ32rMkhDp94PcQuCfSogSagAzs8mTsHtf7-ZQSOXSHfg35ZauUAmpugAAAAGC_6I6AA", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -87,7 +87,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/rca1m3.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/1p63vs.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/9cevdg.jpg"
